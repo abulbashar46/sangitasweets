@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8e1f27">
+  <meta name="description" content="Sangita Sweets — traditional Bihari sweets, khaja, anarsa, gujia, laddus and savouries in Patna.">
+  <title>Sangita Sweets | Celebrating Bihar's Traditional Taste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span>✦ Traditional Bihari taste</span>
+    <span>Open daily · 8:00 AM – 9:00 PM</span>
+    <a href="tel:+918877888889">Call +91 88778 88889</a>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Sangita Sweets home">
+      <span class="brand-mark">S</span>
+      <span>
+        <strong>Sangita</strong>
+        <small>Celebrating Bihar's Traditional Taste</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#sweets">Sweets</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact" class="nav-cta">Order / Enquire</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo">
+        <img src="assets/hero.jpg" alt="Sangita Sweets storefront">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A taste of Bihar, made the traditional way</p>
+        <h1>Sweet memories,<br><em>the Bihari way.</em></h1>
+        <p class="hero-copy">From crisp khaja and anarsa to laddus, gujia and festive favourites — discover the traditional taste of Sangita in the heart of Patna.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#sweets">Explore the Menu <span>→</span></a>
+          <a class="btn btn-ghost" href="https://wa.me/918235811669?text=Hi%20I%20contacted%20you%20through%20your%20website%20about%20Sangita%20Sweets." target="_blank" rel="noopener">WhatsApp Order</a>
+        </div>
+        <div class="hero-trust">
+          <span><b>4.2★</b> Google rating</span>
+          <span><i></i></span>
+          <span>₹200–₹1,200 approx.</span>
+          <span><i></i></span>
+          <span>Vegetarian</span>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <span>52+</span>
+        <small>years in<br>business*</small>
+      </div>
+    </section>
+
+    <section class="story-strip">
+      <div><span class="big-num">01</span><span><b>Traditional</b><small>Bihari favourites</small></span></div>
+      <div><span class="big-num">02</span><span><b>Fresh</b><small>Daily sweet-shop selection</small></span></div>
+      <div><span class="big-num">03</span><span><b>Festive</b><small>Bulk & wedding orders</small></span></div>
+    </section>
+
+    <section class="section menu-section" id="sweets">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">From the counter</p>
+          <h2>Our <em>signature</em> sweets</h2>
+        </div>
+        <p>Browse a selection inspired by the shop's displayed menu. Prices can change, so WhatsApp us for today's rate and availability.</p>
+      </div>
+
+      <div class="featured-grid">
+        <article class="sweet-feature">
+          <img src="assets/khaja.jpg" alt="Fresh khaja at Sangita Sweets">
+          <div class="feature-copy"><span>01 · Bihari classic</span><h3>Khaja</h3><p>Layered, crisp and unmistakably Bihar.</p></div>
+        </article>
+        <article class="sweet-feature tall">
+          <img src="assets/til-laddu.jpg" alt="Til laddu">
+          <div class="feature-copy"><span>02 · Festive favourite</span><h3>Til &amp; Laddus</h3><p>Rich traditional bites for celebrations and gifting.</p></div>
+        </article>
+        <article class="sweet-feature">
+          <img src="assets/sweet-counter.jpg" alt="Sangita Sweets traditional sweet counter">
+          <div class="feature-copy"><span>03 · Shop favourites</span><h3>Anarsa, Gujia &amp; More</h3><p>Classic mithai and savouries for every occasion.</p></div>
+        </article>
+      </div>
+
+      <div class="menu-toolbar">
+        <div class="chips">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="sweet">Mithai</button>
+          <button class="chip" data-filter="snack">Snacks</button>
+          <button class="chip" data-filter="ghee">Ghee specials</button>
+        </div>
+        <button class="menu-card-toggle" id="menuBoardBtn">View original menu card ↗</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <article class="menu-item" data-type="sweet ghee">
+          <div class="menu-thumb"><img src="assets/khaja.jpg" alt="Khaja"><span>01</span></div>
+          <div><h3>Khaja — Plain</h3><p>Traditional flaky sweet</p><strong>₹300 / kg*</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet ghee">
+          <div class="menu-thumb"><img src="assets/khaja-stack.jpg" alt="Khaja stack"><span>02</span></div>
+          <div><h3>Khaja — Ghee</h3><p>Rich traditional version</p><strong>₹600 / kg*</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet">
+          <div class="menu-thumb"><img src="assets/Anarsa.jpg" alt="Anarsa"><span>03</span></div>
+          <div><h3>Anarsa — Plain</h3><p>Bihari festive favourite</p><strong>₹500 / kg*</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet ghee">
+          <div class="menu-thumb"><img src="assets/til-laddu.jpg" alt="Laddu"><span>04</span></div>
+          <div><h3>Anarsa — Ghee</h3><p>Traditional ghee preparation</p><strong>₹600 / kg*</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet">
+          <div class="menu-thumb"><img src="assets/gujia.jpg" alt="Gujia"><span>05</span></div>
+          <div><h3>Gujia</h3><p>Festive sweet pastry</p><strong>Ask for current rate</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet">
+          <div class="menu-thumb"><img src="assets/Laddu.jpg" alt="Laddu"><span>06</span></div>
+          <div><h3>Laddu</h3><p>Multiple traditional varieties</p><strong>From ₹300 / kg*</strong></div>
+        </article>
+        <article class="menu-item" data-type="snack">
+          <div class="menu-thumb"><img src="assets/sweet-counter.jpg" alt="Traditional snacks"><span>07</span></div>
+          <div><h3>Traditional Snacks</h3><p>Namkeen & savoury bites</p><strong>Ask for current rate</strong></div>
+        </article>
+        <article class="menu-item" data-type="sweet ghee">
+          <div class="menu-thumb"><img src="assets/ghee.jpg" alt="Pure Ghee"><span>08</span></div>
+          <div><h3>Pure Ghee</h3><p>Available by the kilogram</p><strong>₹500 / kg*</strong></div>
+        </article>
+      </div>
+      <p class="fine-print">*Sample prices transcribed from the supplied menu board / public listing; confirm the latest shop price before ordering.</p>
+    </section>
+
+    <section class="menu-board-modal" id="menuModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <p class="eyebrow dark">Shop menu</p>
+        <h2>Original <em>menu board</em></h2>
+        <img src="assets/menu-board.webp" alt="Original Sangita Sweets menu board">
+      </div>
+    </section>
+
+    <section class="split-feature">
+      <div class="split-image"><img src="assets/storefront.jpg" alt="Sangita Sweets storefront at night"></div>
+      <div class="split-copy">
+        <p class="eyebrow dark">Made for celebrations</p>
+        <h2>Big moments deserve <em>big mithai boxes.</em></h2>
+        <p>Planning a wedding, puja, family function or corporate celebration? Sangita is listed as a popular choice for wedding and bulk sweet requirements.</p>
+        <ul class="check-list">
+          <li><span>✓</span> Bulk sweet orders</li>
+          <li><span>✓</span> Wedding & festive requirements</li>
+          <li><span>✓</span> Takeaway & delivery availability</li>
+        </ul>
+        <a class="btn btn-dark" href="https://wa.me/918235811669?text=Hi%20Sangita%20Sweets,%20I%20want%20to%20enquire%20about%20a%20bulk%20or%20wedding%20order." target="_blank" rel="noopener">Enquire for a bulk order →</a>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading center">
+        <div>
+          <p class="eyebrow dark">Inside Sangita</p>
+          <h2>A little <em>taste</em> of the shop</h2>
+        </div>
+        <p>Real shop and product photographs supplied for this website concept.</p>
+      </div>
+      <div class="gallery">
+        <button class="gallery-card g1" data-lightbox="assets/storefront.jpg" aria-label="Open storefront photo"><img src="assets/storefront.jpg" alt="Sangita storefront"></button>
+        <button class="gallery-card g2" data-lightbox="assets/khaja.jpg" aria-label="Open khaja photo"><img src="assets/khaja.jpg" alt="Khaja"></button>
+        <button class="gallery-card g3" data-lightbox="assets/sweet-counter.jpg" aria-label="Open sweets counter photo"><img src="assets/sweet-counter.jpg" alt="Sweets counter"></button>
+        <button class="gallery-card g4" data-lightbox="assets/til-laddu.jpg" aria-label="Open til laddu photo"><img src="assets/til-laddu.jpg" alt="Til laddus"></button>
+        <button class="gallery-card g5" data-lightbox="assets/khaja-stack.jpg" aria-label="Open khaja stack photo"><img src="assets/khaja-stack.jpg" alt="Khaja stack"></button>
+      </div>
+    </section>
+
+    <section class="reviews-section" id="reviews">
+      <div class="review-top">
+        <div>
+          <p class="eyebrow">What people mention</p>
+          <h2>Traditional taste. <em>Real love.</em></h2>
+        </div>
+        <div class="rating-box"><strong>4.2</strong><span>★★★★★</span><small>Google rating · 1,100+ reviews</small></div>
+      </div>
+      <div class="review-grid">
+        <article class="review"><div class="stars">★★★★★</div><p>“A good place for khaja in the city. It has been a familiar shop for years.”</p><small>Google reviewer · recent</small></article>
+        <article class="review featured-review"><div class="stars">★★★★★</div><p>“Traditional Bihari style and fresh taste. The desi ghee khoa anarsa and ghee khaja were especially appreciated.”</p><small>Google reviewer · recent</small></article>
+        <article class="review"><div class="stars">★★★★★</div><p>“Genuine in taste. Each and every item felt fresh — especially good for sweets and snacks.”</p><small>Google reviewer · recent</small></article>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-art">
+        <div class="seal"><span>S</span><small>BIHAR<br>TRADITION</small></div>
+        <img src="assets/khaja-stack.jpg" alt="Traditional khaja">
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow dark">The Sangita story</p>
+        <h2>Keeping Bihar's <em>sweet tradition</em> on the table.</h2>
+        <p>Sangita is a traditional sweet shop on Buddh Marg, opposite Patna Museum, known for Bihari favourites such as khaja, anarsa and gujia, alongside laddus and savoury snacks.</p>
+        <p>Public business listings describe the shop as a long-running Patna business with <strong>52+ years in business</strong>. Rather than inventing a founding year, this site uses the verified “52+ years” description.</p>
+        <div class="about-facts">
+          <div><span>📍</span><b>Patna</b><small>Opp. Patna Museum</small></div>
+          <div><span>💰</span><b>₹200–₹1,200</b><small>Approx. range</small></div>
+          <div><span>🕐</span><b>8 AM–9 PM</b><small>Open daily</small></div>
+          <div><span>⭐</span><b>4.2 / 5</b><small>Google rating</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Come say hello</p>
+          <h2>Ready for your next <em>sweet stop?</em></h2>
+          <p>Call for today's menu, availability, bulk orders or a quick enquiry.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="tel:+918877888889">📞 Call the shop</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/918235811669?text=Hi%20Sangita%20Sweets,%20I%20want%20to%20place%20an%20order/enquiry." target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-info">
+          <p class="eyebrow dark">Visit us</p>
+          <h3>Sangita Sweets</h3>
+          <p>Gaya Road, Buddh Marg,<br>opposite Patna Museum,<br>Central Revenue Colony, Lodipur,<br>Patna, Bihar 800001</p>
+          <div class="hours"><span>Every day</span><strong>8:00 AM — 9:00 PM</strong></div>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Sangita%20Sweets%2C%20Gaya%20Road%2C%20Buddh%20Marg%2C%20Patna%2C%20Bihar%20800001" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Sangita Sweets location map"
+            src="https://www.google.com/maps?q=Sangita%20Sweets%2C%20Gaya%20Road%2C%20Buddh%20Marg%2C%20Patna%2C%20Bihar%20800001&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark">S</span><div><strong>Sangita</strong><small>Celebrating Bihar's Traditional Taste</small></div></div>
+    <div class="footer-links"><a href="#sweets">Menu</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+    <p>© <span id="year"></span> Sangita Sweets. Website concept.</p>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="tel:+918877888889" aria-label="Call Sangita">☎</a>
+    <a href="https://wa.me/918235811669?text=Hi%20Sangita%20Sweets,%20I%20want%20to%20order." target="_blank" rel="noopener" aria-label="WhatsApp Sangita">✆</a>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
